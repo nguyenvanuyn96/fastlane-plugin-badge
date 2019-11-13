@@ -2,7 +2,7 @@
 module BadgeBridge
   class Bridge
     def self.available_options
-      require 'badge_note'
+      require 'badge-note'
       Badge::Options.available_options
     end
 
