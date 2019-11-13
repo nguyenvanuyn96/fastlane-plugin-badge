@@ -2,7 +2,7 @@ module Fastlane
   module Actions
     class AddBadgeAction < Action
       def self.run(params)
-        Actions.verify_gem!('badge')
+        Actions.verify_gem!('badge_note')
         Helper::BadgeHelper.run(params)
       end
 
@@ -22,7 +22,7 @@ module Fastlane
         [
           "This action will add a light/dark badge onto your app icon.",
           "You can also provide your custom badge/overlay or add an shield for more customization more info:",
-          "https://github.com/nguyenvanuyn96/badge",
+          "https://github.com/nguyenvanuyn96/badge_note",
           "**Note** If you want to reset the badge back to default you can use `sh 'git checkout -- <path>/Assets.xcassets/'`"
         ].join("\n")
       end
