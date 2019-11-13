@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/badge/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-badge'
+  spec.name          = 'fastlane-plugin-badge-custom'
   spec.version       = Fastlane::Badge::VERSION
   spec.author        = %q{Daniel Griesser}
   spec.email         = %q{daniel.griesser.86@gmail.com}
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   # Don't add a dependency to fastlane or fastlane_re
   # since this would cause a circular dependency
 
-  spec.add_dependency 'badge'
+  spec.add_dependency 'badge_note'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
