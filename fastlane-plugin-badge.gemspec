@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/badge/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-badge-custom'
+  spec.name          = 'fastlane-plugin-badge-note'
   spec.version       = Fastlane::Badge::VERSION
   spec.author        = %q{Daniel Griesser}
   spec.email         = %q{daniel.griesser.86@gmail.com}
 
   spec.summary       = %q{Add a badge overlay to your app icon}
-  spec.homepage      = "https://github.com/nguyenvanuyn96/fastlane-plugin-badge"
+  spec.homepage      = "https://github.com/nguyenvanuyn96/fastlane-plugin-badge-note"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
