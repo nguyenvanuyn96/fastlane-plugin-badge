@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   # Don't add a dependency to fastlane or fastlane_re
   # since this would cause a circular dependency
 
-  spec.add_dependency 'badge', :git => "git@github.com:nguyenvanuyn96/badge.git", :branch => "feature/add_shield_note"
+  spec.add_dependency 'badge', :git => 'git@github.com:nguyenvanuyn96/badge.git', :branch => 'feature/add_shield_note'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
