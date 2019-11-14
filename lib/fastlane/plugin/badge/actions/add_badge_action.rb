@@ -22,7 +22,7 @@ module Fastlane
         [
           "This action will add a light/dark badge onto your app icon.",
           "You can also provide your custom badge/overlay or add an shield for more customization more info:",
-          "https://github.com/nguyenvanuyn96/badge-note",
+          "https://github.com/nguyenvanuyn96/badge",
           "**Note** If you want to reset the badge back to default you can use `sh 'git checkout -- <path>/Assets.xcassets/'`"
         ].join("\n")
       end
