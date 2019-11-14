@@ -2,7 +2,7 @@ module Fastlane
   module Actions
     class AddBadgeAction < Action
       def self.run(params)
-        Actions.verify_gem!('badge-note')
+        Actions.verify_gem!('badge')
         Helper::BadgeHelper.run(params)
       end
 
