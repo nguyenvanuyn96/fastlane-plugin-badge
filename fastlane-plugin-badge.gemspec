@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{daniel.griesser.86@gmail.com}
 
   spec.summary       = %q{Add a badge overlay to your app icon}
-  spec.homepage      = "https://github.com/HazAT/fastlane-plugin-badge"
+  spec.homepage      = "https://github.com/nguyenvanuyn96/fastlane-plugin-badge"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   # Don't add a dependency to fastlane or fastlane_re
   # since this would cause a circular dependency
 
-  spec.add_dependency 'badge', '~> 0.11.0'
+  spec.add_dependency 'badge'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
